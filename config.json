@@ -1,0 +1,26 @@
+{
+  "hosts" : 
+      [
+        "https://pokupon.ua/",
+        "https://partner.pokupon.ua/"
+      ],
+  "interval" : 60,
+  "smtp" : 
+      {
+        "address" : "smtp.gmail.com",
+        "authentication" : "plain",
+        "user_name" : "******@gmail.com",
+        "password" : "********",
+        "enable_starttls_auto" : true,
+        "port" : 587
+      },
+
+  "mail_to" : "alert@pokupon.ua",
+  "mail_from" : "alert@pokupon.ua",
+  "logging" : 
+    {
+      "file" : "pokupon.log",
+      "level" : "INFO"
+    }
+}
+
