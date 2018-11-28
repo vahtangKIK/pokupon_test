@@ -30,7 +30,8 @@ class Mailer
     send(message, subject)
   end
 
-private   
+private
+
   def self.send(message, subject)
     begin
       @@mutex.synchronize {

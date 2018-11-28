@@ -14,7 +14,6 @@
         "enable_starttls_auto" : true,
         "port" : 587
       },
-
   "mail_to" : "alert@pokupon.ua",
   "mail_from" : "alert@pokupon.ua",
   "logging" : 

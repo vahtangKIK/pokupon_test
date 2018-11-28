@@ -14,13 +14,12 @@ class Host
     @mutex = Mutex.new
   end
 
-
   def run
     scheduler = Rufus::Scheduler.new
     scheduler.every @interval do |job| 
       @mutex.synchronize {
-         check
-        }   
+        check
+      }   
      end
     self
   end
@@ -52,5 +51,4 @@ private
       @last_reachable = true
     end
   end
-
 end
