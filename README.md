@@ -8,7 +8,7 @@
 2) отредактировать файл конфигурации - продставить валидные данные почтового сервера
 
 3) запуск сервиса:
-	$ ./pokupon_checker.rb start
+	$ ./pokupon_watchdog.rb start
 
 остановка сервиса:
-	$ ./pokupon_checker.rb stop
+	$ ./pokupon_watchdog.rb stop
