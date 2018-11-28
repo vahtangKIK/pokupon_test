@@ -20,7 +20,5 @@ config['hosts'].each do |host|
   $log.info("Host #{host} is watchdogged")
 end
 
-loop do
-  sleep(5)
-end
+sleep
 
